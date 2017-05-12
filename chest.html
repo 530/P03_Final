@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<!-- Jeremiah Howell -->
+
+<html>
+  <head>
+    <title>Chest Workout</title>
+    <meta charset="UTF-8">
+    <script type="text/javascript" src="script.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+	
+  <body>
+		<h1> Push yourself! </h1>
+    <div style="width: 100%">
+      <div class="right">
+        <img src="https://www.bodybuilding.com/images/2016/june/5-chest-workouts-for-mass-v2-1-640xh.jpg"
+        alt="Chest" style="width:450px;height:450px;"><br>
+				<a style="color: #121212" href="https://www.bodybuilding.com/images/2016/june/5-chest-workouts-for-mass-v2-1-									640xh.jpg">
+		  		<u>Img Src</u></a>
+      </div>
+			
+      <div class="left">
+			<!-- I didn't use the <ul> tag so that the list would center w/o the bullets being far on the left -->
+					<h4> Chest: </h4>
+					<h5> Can't decide what to do next? Click Random Workout!</h5>
+					<li> Cardio warm up - 15 minutes </li>
+					<li> Stretch - 15 minutes </li>
+					<li> Dumb Bell Press - 4x10 </li>
+					<li> Dumb Bell Decline Press - 4x10 </li>
+					<li> Dumb Bell Incline Press - 4x10</li>
+					<li> Dumb Bell Flies - 4x10</li>
+					<li> Push Ups - 4x25 </li>
+	
+				<form>
+          <input placeholder="Muscle Group" type="text" id="muscleGroup"><br>
+          <button type="button" onclick="workout();">Enter</button>
+          <p id="error"></p>
+					<button type="button" onclick="random();">Random Workout</button>
+        </form>
+				<button type="button" onclick="reset();">Home</button><br>
+				<a style="color: #121212" href="https://image.freepik.com/free-vector/grey-linen-texture-background_1053-253.jpg">
+		  	<u>Background Src</u></a>
+      </div>
+			
+    </div>
+  </body>
+</html>

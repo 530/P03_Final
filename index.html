@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<!-- Jeremiah Howell -->
+
+<html>
+  <head>
+  	<title>Workout Plan</title>
+    <meta charset="UTF-8">
+    <script type="text/javascript" src="script.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+	
+  <body>
+    <div style="width: 100%">
+      <div class="right">
+				<h1 class="font">Final Project</h1>
+        <p>For my final project I decided to make a muscle group workout generator. You can either select
+				the muscle group you'd like to work out or have one randomly generated for you.</p>
+				<p>I've always liked working out, it not only a great stress and anxiety reliever while majoring in
+				CINS at Chico State, but it's also very rewarding.</p>
+				<p><i>"The worst thing I can be is the same as everybody else. I hate that."</i> Arnold Schwarzenegger</p>
+      </div>
+			
+      <div class="left">  
+				<h4> What kind of workout are you looking for?</h4>
+				<h5> Can't decide? Click Random Workout!</h5>
+				<!-- I didn't use the <ul> tag so that the list would center w/o the bullets being far on the left -->
+      		<li>Chest</li>
+					<li>Back</li>
+        	<li>Arms</li>
+        	<li>Legs</li>
+				
+        <form>
+          <input placeholder="Muscle Group" type="text" id="muscleGroup"><br>
+          <button type="button" onclick="workout();" >Enter</button>
+          <p id="error"></p>
+					<button type="button" onclick="random();">Random Workout</button><br>
+					<a style="color: #121212" href="https://image.freepik.com/free-vector/grey-linen-texture-background_1053-253.jpg">
+		  		<u>Background Src</u></a>
+        </form>
+      </div>
+			
+    </div>
+  </body>
+</html>
